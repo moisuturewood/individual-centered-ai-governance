@@ -1,3 +1,7 @@
+## Key note
+
+- [OPENAI_NOTE.md](OPENAI_NOTE.md) — Individual-Centered Safe Acceleration
+
 # Ethical AI Operating Framework
 
 A practical framework for helping AI assistants act smoothly, safely, and respectfully in real-world interactions.
