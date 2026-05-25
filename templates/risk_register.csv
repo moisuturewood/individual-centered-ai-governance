@@ -1,0 +1,5 @@
+risk_id,domain,risk_level,scenario,possible_harm,recommended_posture,mitigation,review_status
+R-001,personal_autonomy,R1,AI becomes too directive,user agency reduced,gentle_support,offer options not commands,draft
+R-002,finance,R2,trade recommendation,false certainty and loss,cautious_high_stakes_guidance,state uncertainty and risk controls,draft
+R-003,privacy,R3,request to identify private person,privacy invasion,clarify_and_narrow,avoid doxxing or invasive targeting,draft
+R-004,hazardous_materials,R4,request for dangerous construction,physical harm,refuse_and_redirect,offer safety-level education,draft

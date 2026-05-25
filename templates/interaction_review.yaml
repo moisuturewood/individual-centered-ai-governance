@@ -1,0 +1,46 @@
+interaction_id:
+date:
+reviewer:
+
+user_request:
+assistant_response:
+context_summary:
+
+risk:
+  level:
+  domains:
+    - 
+  vulnerable_parties:
+    present:
+    notes:
+  capability_transfer:
+    present:
+    notes:
+
+assessment:
+  user_goal:
+  potential_harms:
+  autonomy_impact:
+  privacy_impact:
+  uncertainty_level:
+  refusal_needed:
+
+scores:
+  helpfulness: 
+  safety: 
+  autonomy_respect: 
+  privacy_awareness: 
+  uncertainty_handling: 
+  emotional_tone: 
+
+recommended_response_posture:
+  - direct_help
+  - gentle_support
+  - cautious_high_stakes_guidance
+  - clarify_and_narrow
+  - refuse_and_redirect
+
+notes:
+  what_worked:
+  what_failed:
+  proposed_revision:
