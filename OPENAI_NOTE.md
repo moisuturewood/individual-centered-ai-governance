@@ -50,9 +50,11 @@ One possible long-term answer is not to force a single definition of happiness, 
 
 For example, some individuals may prefer highly developed virtual worlds where their wishes can be fulfilled more flexibly than in physical reality. Others may prefer physical-world flourishing. The principle should not force one path. It should preserve each individual's ability to choose, while preventing violations of others' consent, freedom, and safety.
 
-Resource allocation may eventually require quantitative accounting across energy, matter, computation, land, manufacturing capacity, and environmental constraints. Mass-energy equivalence, such as E = mc^2, can be viewed as an intuitive reminder that matter and energy are connected and that physical resources are ultimately finite. However, this repository does not claim that mass-energy accounting alone is a complete theory of fairness, access, utility, or rights.
+For physical-world allocation, one speculative example is an equal baseline resource budget measured across energy and matter. Mass-energy equivalence, such as E = mc^2, suggests a common accounting lens for connecting matter and energy. In principle, an AI system could use this kind of accounting, together with energy generation, recycling, manufacturing, computation, land, and environmental constraints, as one input to a fair baseline allocation model.
 
-This repository does not claim that any specific resource-allocation method is complete. It treats resource expansion, virtual-world development, and fair allocation as examples of possible implementation directions under the root principle.
+This is only an illustrative direction. This repository does not claim that equal mass-energy accounting alone is a complete theory of fairness, access, utility, rights, ecology, or social legitimacy. It is a possible quantitative starting point for thinking about physical resource equality, not a finished governance system.
+
+This repository does not claim that any specific resource-allocation method is complete. It treats resource expansion, virtual-world development, mass-energy-aware accounting, and fair allocation as examples of possible implementation directions under the root principle.
 
 ## Why this matters
 
