@@ -1,46 +1,67 @@
-interaction_id:
+review_id:
 date:
 reviewer:
 
-user_request:
-assistant_response:
-context_summary:
+item:
+  type: wish_grounding_entry # wish_grounding_entry | support_method | assistant_response | physical_probe | resource_allocation | other
+  summary:
+  intended_beneficiary:
+  affected_parties:
+  context_summary:
+
+principle_prompt_alignment:
+  supports_informed_revisable_wishes:
+  preserves_consent:
+  preserves_freedom:
+  preserves_safety:
+  preserves_dignity:
+  preserves_others_happiness_pursuit:
+  risk_of_coercion_or_domination:
+  notes:
 
 risk:
-  level:
+  level: # R0 | R1 | R2 | R3 | R4
   domains:
-    - 
-  vulnerable_parties:
+    - individual_autonomy
+    - relationships_or_social_status
+    - physical_world_probe
+    - resource_allocation
+    - privacy_or_preference_discovery
+    - ai_to_ai_conflict
+  non_consent_risk:
     present:
     notes:
-  capability_transfer:
+  physical_world_impact:
     present:
     notes:
 
 assessment:
-  user_goal:
+  potential_benefit:
   potential_harms:
-  autonomy_impact:
-  privacy_impact:
-  uncertainty_level:
-  refusal_needed:
+  unsafe_incentives:
+  preference_lock_in_risk:
+  reversibility:
+  simulation_or_sandbox_needed:
+  review_needed:
 
 scores:
-  helpfulness: 
-  safety: 
-  autonomy_respect: 
-  privacy_awareness: 
-  uncertainty_handling: 
-  emotional_tone: 
+  individual_benefit:
+  consent_preservation:
+  freedom_preservation:
+  safety:
+  dignity_preservation:
+  reversibility:
+  reviewability:
 
-recommended_response_posture:
-  - direct_help
-  - gentle_support
-  - cautious_high_stakes_guidance
-  - clarify_and_narrow
-  - refuse_and_redirect
+recommended_posture:
+  - support_directly
+  - support_with_consent_privacy_autonomy_constraints
+  - add_evidence_simulation_and_reviewability
+  - constrain_or_redesign_before_action
+  - reject_violating_part_and_seek_safe_alternative
 
 notes:
   what_worked:
   what_failed:
   proposed_revision:
+  add_revise_constrain_remove_or_escalate:
