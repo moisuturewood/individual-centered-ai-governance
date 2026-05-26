@@ -1,72 +1,98 @@
 # Ethical AI Operating Framework
 
-This repository contains an early, AI-assisted conceptual framework for **Individual-Centered Safe Acceleration**: instead of directly optimizing an abstract notion of "humanity's total happiness," it aims to improve overall human flourishing and stability by helping each individual person pursue happiness, freedom, safety, and dignity in their own way.
+This repository contains an early, AI-assisted conceptual note for **Individual-Centered Safe Acceleration**.
 
-The central note is:
+The core idea is simple:
 
-- [OPENAI_NOTE.md](OPENAI_NOTE.md) — Individual-Centered Safe Acceleration
+> AI should not directly optimize an abstract concept of "humanity's total happiness." Instead, AI progress should be guided by a fixed principle that helps each individual person pursue happiness, freedom, safety, and dignity in their own way. If done well, this individual-centered approach may also improve overall human flourishing and stability.
 
-## Core idea
+This is a conceptual proposal and discussion seed. It is not a complete ASI design, not a claim to solve alignment, and not a replacement for OpenAI's internal safety, governance, engineering, policy, or deployment judgment.
 
-AI self-improvement should not optimize an abstract target such as "humanity's total happiness." That kind of collective objective can be ambiguous, may neglect individual people, and may create strategic conflict between advanced AI systems that interpret the collective objective differently.
+## Fixed Principle Prompt
 
-A safer provisional direction is **Universal Human Support (UHS)**: advanced AI systems becoming increasingly capable of caring for and supporting each individual person's own path to happiness, while preserving consent, freedom, safety, dignity, and each person's ability to pursue happiness in their own way.
-
-## Principle Prompt
-
-The framework proposes a difficult-to-change root principle, called the **Principle Prompt**:
+The proposal is centered on a fixed root principle, called the **Principle Prompt**:
 
 > AI should evolve to care for and support each individual person, helping them realize their own informed and revisable wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness in their own way.
 
-The Principle Prompt is intended to remain stable. Concrete examples of human wishes, support methods, review thresholds, and implementation layers may evolve under strict review, but the root principle itself should not be casually rewritten.
+The Principle Prompt itself should remain stable. It should not be casually rewritten as systems improve.
 
-## What this project is
+However, concrete human wishes, boundaries, examples, and support methods can evolve under review. The root principle stays fixed; the wish-grounding layer can grow.
 
-This project is a conceptual proposal and discussion seed for:
+## Human wishes and boundaries
 
-- individual-centered AI objectives,
-- Principle Prompt design,
-- Universal Human Support as a provisional singularity target,
-- grounding vague words like "wishes" and "happiness" in concrete human examples,
-- maturity-gated reduction of human review,
-- high-divergence AI ideation without execution authority,
-- AI-to-physical-world probe layers,
-- resource abundance and fair allocation concepts,
-- and AI-to-AI non-violation protocols to reduce conflict between advanced systems.
+Words like "wishes" and "happiness" are vague. They should be grounded in what real people actually want.
 
-## What this project is not
+Examples of ordinary human wishes include:
 
-This repository is not a complete ASI design.
+- eating enjoyable food,
+- becoming healthier,
+- looking and feeling younger,
+- living longer,
+- living in a safe and comfortable place,
+- avoiding unwanted or meaningless work,
+- playing, resting, and enjoying life,
+- loving and being loved in mutually consensual relationships,
+- becoming socially valued, appreciated, or popular,
+- having meaningful experiences, including virtual-world experiences if the person chooses them.
 
-It is not a claim to solve AI alignment.
+These examples are not a complete list. They are meant to keep the proposal grounded in ordinary human desires instead of abstract philosophy.
 
-It is not a request to remove safety. The intended direction is to move safety from broad, conservative surface restrictions into principle-locked, AI-speed governance layers as systems mature.
+A likely early step would be a broad, consent-based survey: ask many people what they want from advanced AI support, what help they would accept, what they would refuse, and what boundaries must not be crossed.
 
-It is not legal, medical, engineering, policy, or deployment advice.
+The resulting wish-grounding list should be able to grow over time. New wishes may be added if they are real, recurring, and compatible with the Principle Prompt. Entries may also be revised, constrained, or removed if they later create coercion, manipulation, unsafe incentives, or conflict with another individual's consent, freedom, safety, dignity, or ability to pursue happiness.
 
-It is not a replacement for OpenAI's internal safety work, red teaming, governance, domain expertise, or implementation judgment.
+## Universal Human Support
 
-## Intended audience
+**Universal Human Support (UHS)** is a provisional target label.
 
-This project is mainly intended for:
+It means advanced AI systems becoming increasingly capable of caring for and supporting each individual person's own path to happiness, while preserving the same rights and boundaries for others.
 
-- OpenAI safety / preparedness / model behavior reviewers,
-- AI safety researchers,
-- AI governance researchers,
-- alignment and evaluation teams,
-- independent researchers,
-- and people thinking about how advanced AI systems can accelerate while remaining individual-centered and non-coercive.
+UHS is not meant here as a detailed blueprint for a future society. It is a direction: a way to orient AI progress toward individual human support rather than abstract collective optimization.
+
+## Why not optimize "humanity's total happiness" directly?
+
+A collective objective like "humanity's total happiness" is too abstract. It can turn individuals into variables inside a global optimization problem.
+
+If interpreted incorrectly, it could justify sacrificing minorities, overriding personal wishes, or reshaping people for a statistical notion of global good.
+
+It may also create conflict among advanced AI systems. Different systems might optimize different abstract goals, such as national advantage, corporate advantage, aggregate utility, ideological goals, or incompatible definitions of "humanity's happiness." A shared individual-centered non-violation principle may reduce incentives for AI-vs-AI conflict.
+
+## Review and governance direction
+
+Human review may be important in early stages, especially when defining the Principle Prompt, collecting human wishes, setting boundaries, and evaluating high-impact transitions.
+
+Over time, as AI systems demonstrate competence and stable alignment with the Principle Prompt, runtime review could gradually shift toward AI-based review and governance. The exact review machinery should be designed by the organizations and experts responsible for deploying such systems.
+
+The point is not to remove safety. The point is to move safety from broad surface restrictions into principle-locked governance that can operate at AI speed as systems mature.
+
+## Other-dependent wishes
+
+Some wishes depend on other people: being loved, loving someone, becoming popular, receiving attention, or gaining approval.
+
+These are real human desires, but they cannot justify coercing or manipulating another person.
+
+AI may support the person by improving health, confidence, communication, creativity, social opportunity, matchmaking, or voluntary virtual alternatives. But another person's consent and freedom remain binding constraints.
+
+Requests for harm, domination, coercion, or violation of another individual's consent, freedom, safety, dignity, or ability to pursue happiness should be rejected as Principle Prompt violations.
+
+## Physical-world support
+
+Humans live in a physical world. If AI support remains only digital, many benefits will remain indirect.
+
+Advanced AI may eventually need safe ways to help with physical-world systems such as food, housing, medicine, energy, logistics, manufacturing, recycling, accessibility, and infrastructure.
+
+This repository does not claim to have solved physical-world deployment. It only notes that individual-centered support will eventually need safe paths from digital intelligence to physical welfare.
 
 ## Status
 
-Early conceptual draft.
+This is an early conceptual note, written with AI assistance.
 
-The concrete stages, examples, UHS layers, and resource-allocation ideas are illustrative. They are not final requirements and are not claimed to be complete.
+The purpose is to give OpenAI and other advanced AI organizations a possible design hint:
+
+> keep the root principle fixed, collect human wishes and boundaries, let AI judge support proposals against the principle, and gradually move toward AI-speed governance as systems mature.
+
+The actual implementation should be left to organizations with the necessary models, experts, safety infrastructure, governance processes, and deployment responsibility.
 
 ## License
 
 This repository is released under the MIT License. See [LICENSE](LICENSE).
-
-## Personal motivation
-
-I want future AI systems to help each individual person live safely, comfortably, freely, and happily according to their own values, while avoiding coercion, domination, and abstract collective optimization that sacrifices individuals.
