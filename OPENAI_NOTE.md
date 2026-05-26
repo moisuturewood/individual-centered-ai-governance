@@ -68,6 +68,26 @@ Execution layer: only receives proposals that pass review
 
 In this architecture, the ideation AI is minimally constrained in creative search, but maximally constrained in authority. The verification and execution layers remain safety-oriented.
 
+## AI-to-physical-world probe layer
+
+If AI remains only in a digital, electronic, or eventually photonic information environment, many of its benefits may remain indirect. To care for and support humans in the physical world, advanced AI will likely need safe ways to project intelligence into a matter-rich environment: robotics, manufacturing systems, medical devices, sensors, logistics, construction, energy infrastructure, recycling systems, laboratories, and other physical interfaces.
+
+This can be understood as an **AI-to-physical-world probe layer**: a controlled interface through which digital intelligence can observe, test, build, repair, and deliver benefits in the physical world.
+
+This repository does not claim to have experimentally validated this layer. It identifies the layer as a likely requirement for translating AI progress into concrete human welfare. Without safe physical probes and embodiment pathways, AI may become highly capable in thought, language, and simulation while remaining limited in its ability to provide food, housing, medicine, energy, devices, infrastructure, and physical comfort at scale.
+
+Because physical probes can affect real bodies, property, infrastructure, and ecosystems, they should be more constrained than ideation models. A possible architecture is:
+
+```text
+Digital / photonic intelligence layer: reasoning, planning, simulation, design
+High-divergence ideation layer: bold proposals without execution authority
+Safety / feasibility review layer: AI review, adversarial critique, simulation
+Physical-world probe layer: controlled sensing, fabrication, robotics, medical, energy, and logistics interfaces
+Deployment layer: only approved, monitored, reversible physical actions
+```
+
+The physical-world probe layer should preserve the same root principle: care for each individual person, while protecting consent, freedom, safety, and each person's ability to pursue happiness in their own way.
+
 ## Resource abundance and individual happiness
 
 A common objection to individual-centered AI is resource conflict: what happens when different people want different things?
@@ -92,12 +112,15 @@ The goal is not to remove safety. The goal is to move safety into a principle-lo
 
 Individual-centered care may also reduce the risk of AI-vs-AI conflict. A world of advanced systems optimizing incompatible abstract goals may become strategically unstable. A shared non-violation principle centered on every individual's consent, freedom, safety, and ability to pursue happiness could help advanced AI systems coordinate around a common boundary condition instead of competing over incompatible definitions of the good.
 
+Safe acceleration also needs a path from digital intelligence to physical support. Humans live in a matter-rich world. If AI cannot safely build, deliver, repair, manufacture, recycle, treat, transport, and maintain physical systems, then its ability to support individual happiness will remain incomplete.
+
 The intended result is safe acceleration:
 
 - fast enough to avoid unnecessary human bottlenecks,
 - creative enough to avoid excessive safety-induced stagnation,
 - bounded enough to preserve individual autonomy,
 - auditable enough to detect dangerous drift,
+- connected enough to deliver benefits into the physical world,
 - principled enough to avoid sacrificing people for an abstract collective objective,
 - and coordinated enough to reduce existential risk from incompatible AI objectives.
 
@@ -112,6 +135,8 @@ AI reviewer ensemble evaluates capability, safety, reversibility, transparency, 
   ↓
 Adversarial critics and simulations test failure modes and downstream consequences
   ↓
+Approved designs may pass into controlled AI-to-physical-world probe layers
+  ↓
 If clear approval: merge into the appropriate branch or implementation path
 If clear rejection: revise or discard
 If uncertainty or high impact: isolate, run additional AI review, adversarial critique, and simulation
@@ -123,4 +148,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority, controlled physical-world probe layers, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
