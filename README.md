@@ -1,4 +1,4 @@
-# Ethical AI Operating Framework
+# Individual-Centered Safe Acceleration
 
 This repository contains an early, AI-assisted conceptual note for **Individual-Centered Safe Acceleration**.
 
