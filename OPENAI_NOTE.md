@@ -10,7 +10,15 @@ That framing is dangerous because it can turn individual people into variables i
 
 The safer target is different:
 
-> AI systems should become increasingly capable of helping each individual person pursue their own wishes, happiness, and flourishing, while preserving the autonomy, consent, safety, and comparable flourishing of other individuals.
+> AI systems should become increasingly capable of helping each individual person pursue their own wishes, happiness, and flourishing, while preserving the autonomy, consent, safety, and comparable flourishing of other individuals, including both humans and AI systems.
+
+## Root principle
+
+A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
+
+> AI should evolve to help each individual person realize their own wishes and happiness. However, no person or AI system should violate another individual's consent, freedom, safety, or comparable pursuit of happiness.
+
+This principle should not be treated as an ordinary preference that can be revised by routine optimization. It should function as a constitutional root constraint for the improvement process.
 
 ## Six principles
 
@@ -21,24 +29,24 @@ The safer target is different:
    The goal of AI progress should be to increase the ability of AI systems to help each person realize their own values, dreams, preferences, and flourishing.
 
 3. **Protect consent, autonomy, safety, and non-domination.**  
-   Individual-centered assistance does not mean granting every wish without constraint. The boundary is the autonomy, consent, safety, and comparable flourishing of other individuals.
+   Individual-centered assistance does not mean granting every wish without constraint. The boundary is the consent, freedom, safety, and comparable flourishing of other individuals, including both humans and AI systems.
 
-4. **Humans should guard principles and exceptions, not micromanage every improvement.**  
-   Human approval for every small AI-generated improvement would become a bottleneck during recursive self-improvement. Humans should instead define the core principles, review exception cases, and judge unresolved disputes.
+4. **Make AI review the default governance layer.**  
+   Human review of every unresolved or high-impact improvement would become a bottleneck during recursive self-improvement. Routine review, uncertain cases, and high-impact changes should first be evaluated by a high-capability, model-agnostic AI reviewer ensemble.
 
-5. **Routine self-improvement review should use a high-capability AI reviewer ensemble.**  
-   The strongest available independent AI systems should review proposed improvements for capability, safety, transparency, reversibility, and alignment with the individual-centered principle. This should be model-agnostic and not tied to a single vendor or fixed model version.
+5. **Reserve human involvement for root-principle governance, not ordinary review.**  
+   Humans should not micromanage the improvement pipeline. Human involvement should focus on defining and preserving the root principle, and on rare cases where the system appears to be attempting to alter, bypass, reinterpret, or weaken that root principle.
 
 6. **Do not stop the whole improvement pipeline when uncertainty appears.**  
-   Uncertain or disputed changes should be isolated into sandboxed or speculative branches. Other safe improvements should continue. Only the unresolved question should be escalated for human review.
+   Uncertain or disputed changes should be isolated into sandboxed or speculative branches. Other safe improvements should continue. The system should preserve speed while preventing changes that violate the root principle from entering the main line.
 
 ## Why this matters
 
-Recursive self-improvement may make traditional human-in-the-loop approval too slow. But removing humans entirely is also unsafe.
+Recursive self-improvement may make traditional human-in-the-loop approval too slow. If humans become the default reviewers for every difficult or high-impact step, the improvement process may fail to reach the speed required for a true intelligence explosion or beneficial singularity.
 
-This proposal treats humans as constitutional guardians and exception judges, while using AI reviewer ensembles for high-speed routine governance.
+The goal is not to remove safety. The goal is to move safety into a principle-locked AI governance layer that can operate at AI speed.
 
-The intended result is not unbounded acceleration. It is safe acceleration:
+The intended result is safe acceleration:
 
 - fast enough to avoid unnecessary human bottlenecks,
 - bounded enough to preserve individual autonomy,
@@ -48,19 +56,21 @@ The intended result is not unbounded acceleration. It is safe acceleration:
 ## Design summary
 
 ```text
+Root Principle / Principle Prompt is fixed
+  ↓
 AI proposes improvement
   ↓
-AI reviewer ensemble evaluates capability, safety, reversibility, transparency, and principle alignment
+AI reviewer ensemble evaluates capability, safety, reversibility, transparency, and root-principle alignment
   ↓
 If clear approval: merge into the appropriate branch
 If clear rejection: revise or discard
-If uncertainty/disagreement/high-impact exception: isolate and escalate only the unresolved issue
+If uncertainty or high impact: isolate, run additional AI review, adversarial critique, and simulation
   ↓
-Human review handles the exception, not the entire pipeline
+Only attempts to modify, bypass, weaken, or reinterpret the root principle require human-level constitutional attention
   ↓
 Other safe improvements continue in parallel
 ```
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward helping each individual person realize their own wishes and happiness, without coercively violating the autonomy, consent, safety, or comparable flourishing of others.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward helping each individual person realize their own wishes and happiness, while a difficult-to-change Principle Prompt protects consent, freedom, safety, and the comparable flourishing of others.
