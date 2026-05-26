@@ -14,6 +14,16 @@ The safer target is different:
 
 This individual-centered target may also reduce existential risk from conflict among advanced AI systems. If different AI systems optimize different abstract collective objectives—such as national advantage, corporate advantage, aggregate utility, ideological goals, or incompatible definitions of "humanity's happiness"—their objectives may diverge and create strategic conflict. Such conflict could escalate beyond human control. A shared Principle Prompt centered on each individual person's consent, freedom, safety, and ability to pursue happiness in their own way could provide a common non-violation protocol for advanced AI systems, reducing incentives for AI-vs-AI conflict.
 
+## Provisional singularity target: Universal Human Support (UHS)
+
+This note is not primarily a detailed blueprint for every service in a future society. Instead, it asks what kind of root principle and governance architecture could allow recursive AI self-improvement to accelerate safely.
+
+**Universal Human Support (UHS)** is used here as a provisional target label for singularity-oriented AI progress: advanced AI systems becoming increasingly capable of caring for and supporting each individual person's own path to happiness.
+
+The purpose is not to define all services in advance. The purpose is to define a principle-locked acceleration setting: a difficult-to-change root principle, AI-primary review, broad ideation without execution authority, controlled physical-world probe layers, and shared non-violation protocols that allow AI systems to improve rapidly without optimizing incompatible abstract goals.
+
+Concrete UHS layers mentioned in this note—resource abundance, virtual-world flourishing, physical-world probes, and mass-energy-aware resource accounting—are illustrative examples produced through AI-assisted reasoning. They are not final requirements and are not claimed to be complete.
+
 ## Root principle
 
 A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
@@ -129,6 +139,8 @@ The intended result is safe acceleration:
 ```text
 Root Principle / Principle Prompt is fixed
   ↓
+Provisional singularity target: Universal Human Support (UHS)
+  ↓
 High-divergence ideation AI proposes bold candidate strategies without execution authority
   ↓
 AI reviewer ensemble evaluates capability, safety, reversibility, transparency, feasibility, and root-principle alignment
@@ -148,4 +160,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority, controlled physical-world probe layers, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward Universal Human Support: caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority, controlled physical-world probe layers, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
