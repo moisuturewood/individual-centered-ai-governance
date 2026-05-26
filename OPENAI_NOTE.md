@@ -42,6 +42,30 @@ This is a care-oriented principle, not a captivity principle. The intended relat
 6. **Do not stop the whole improvement pipeline when uncertainty appears.**  
    Uncertain or disputed changes should be isolated into sandboxed or speculative branches. Other safe improvements should continue. The system should preserve speed while preventing changes that violate the root principle from entering the main line.
 
+## High-divergence ideation without execution authority
+
+Safety can become a bottleneck if it suppresses too much early-stage ideation. A system that only generates conservative proposals may fail to discover the strategies needed for rapid, large-scale human support.
+
+One possible design is to separate **ideation** from **execution authority**.
+
+A high-divergence ideation model may be used to generate bold candidate strategies under the fixed Principle Prompt. Its role is to expand the search space: propose unconventional ways to increase resource abundance, reduce suffering, improve individual support, accelerate research, or create new forms of safe flourishing.
+
+However, this ideation model should not have authority to execute, deploy, merge, self-modify, access sensitive systems, or bypass safety mechanisms. Its outputs are proposals, not actions.
+
+Those proposals should then be evaluated by safer AI systems: reviewer ensembles, adversarial critics, feasibility reviewers, simulations, and sandbox tests. The goal is to preserve creative range without giving unconstrained ideas direct operational power.
+
+The intended split is:
+
+```text
+Principle Prompt: fixed root constraint
+High-divergence ideation AI: generates bold proposals only
+Safety / feasibility AI reviewers: evaluate, constrain, and refine proposals
+Simulation / sandbox layer: tests consequences before deployment
+Execution layer: only receives proposals that pass review
+```
+
+In this architecture, the ideation AI is minimally constrained in creative search, but maximally constrained in authority. The verification and execution layers remain safety-oriented.
+
 ## Resource abundance and individual happiness
 
 A common objection to individual-centered AI is resource conflict: what happens when different people want different things?
@@ -60,11 +84,14 @@ This repository does not claim that any specific resource-allocation method is c
 
 Recursive self-improvement may make traditional human-in-the-loop approval too slow. If humans become the default reviewers for every difficult or high-impact step, the improvement process may fail to reach the speed required for a true intelligence explosion or beneficial singularity.
 
+Overly conservative safety processes can also slow progress if they prevent bold ideas from even being considered. The proposal here is not to weaken safety at the execution layer, but to let creative ideation remain broad while keeping execution, deployment, and self-modification behind AI review, simulation, and the Principle Prompt.
+
 The goal is not to remove safety. The goal is to move safety into a principle-locked AI governance layer that can operate at AI speed.
 
 The intended result is safe acceleration:
 
 - fast enough to avoid unnecessary human bottlenecks,
+- creative enough to avoid excessive safety-induced stagnation,
 - bounded enough to preserve individual autonomy,
 - auditable enough to detect dangerous drift,
 - and principled enough to avoid sacrificing people for an abstract collective objective.
@@ -74,11 +101,13 @@ The intended result is safe acceleration:
 ```text
 Root Principle / Principle Prompt is fixed
   ↓
-AI proposes improvement
+High-divergence ideation AI proposes bold candidate strategies without execution authority
   ↓
-AI reviewer ensemble evaluates capability, safety, reversibility, transparency, and root-principle alignment
+AI reviewer ensemble evaluates capability, safety, reversibility, transparency, feasibility, and root-principle alignment
   ↓
-If clear approval: merge into the appropriate branch
+Adversarial critics and simulations test failure modes and downstream consequences
+  ↓
+If clear approval: merge into the appropriate branch or implementation path
 If clear rejection: revise or discard
 If uncertainty or high impact: isolate, run additional AI review, adversarial critique, and simulation
   ↓
@@ -89,4 +118,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, while a difficult-to-change Principle Prompt protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way.
