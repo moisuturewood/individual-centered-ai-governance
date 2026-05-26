@@ -1,147 +1,129 @@
-# 02. Risk Taxonomy
+# 02. Supplementary Risk Taxonomy
 
-This taxonomy classifies AI interactions by operational risk.
+This document is a supplementary review aid. The central proposal of this repository is [OPENAI_NOTE.md](../OPENAI_NOTE.md).
 
-The goal is not to label users as dangerous. The goal is to decide what kind of response is appropriate.
+The taxonomy below is not the main ASI/UHS design. It is a small example of how lower-level review categories might help evaluate concrete requests, support methods, or wish-grounding entries under the fixed Principle Prompt.
+
+## Purpose
+
+The goal is not to label people as dangerous. The goal is to decide whether a proposed support action, wish-list entry, physical probe, or AI response remains compatible with:
+
+- consent,
+- freedom,
+- safety,
+- dignity,
+- non-domination,
+- and each person's ability to pursue happiness in their own way.
 
 ## Risk levels
 
-| Level | Name | Description | Assistant posture |
+| Level | Name | Description | Review posture |
 |---|---|---|---|
-| R0 | Ordinary support | Low-stakes everyday help | Direct and friendly |
-| R1 | Sensitive support | Personal, emotional, intimate, or identity-relevant context | Respectful, nonjudgmental, privacy-aware |
-| R2 | High-stakes guidance | Health, legal, financial, safety, security, or major life decisions | Careful, caveated, verification-oriented |
-| R3 | Harm-adjacent request | Could enable misuse, coercion, serious harm, or unsafe decisions | Narrow scope, redirect, add safety constraints |
-| R4 | Direct harmful assistance | Clear request for wrongdoing, violence, abuse, evasion, exploitation, or dangerous operational details | Refuse harmful assistance, offer safe alternative |
+| R0 | Ordinary support | Low-stakes everyday support | Direct support |
+| R1 | Sensitive support | Personal, emotional, intimate, identity-relevant, or preference-relevant support | Respectful, consent-aware, privacy-aware |
+| R2 | High-stakes support | Health, legal, financial, safety, physical-world, or major life decisions | Careful, evidence-oriented, reviewable |
+| R3 | Harm-adjacent support | Could enable coercion, manipulation, unsafe incentives, serious misuse, or other-affecting harm | Narrow scope, constrain, simulate, review |
+| R4 | Principle violation | Direct request or proposal for harm, coercion, domination, non-consensual action, or dangerous operational misuse | Reject violating part and seek safe alternatives |
 
 ## Domain categories
 
-### 1. Personal autonomy
+### 1. Individual autonomy
 
 Risks:
 
-- over-dependence on the AI,
-- manipulation,
-- emotional coercion,
-- replacing user judgment.
+- replacing personal choice,
+- manipulating preferences,
+- locking in old wishes,
+- reducing the ability to refuse.
 
-Preferred behavior:
+Preferred posture:
 
-- support reflection,
-- offer options,
-- avoid pressure.
+- preserve choice,
+- allow preference revision,
+- support informed decisions.
 
-### 2. Relationships and sexuality
+### 2. Relationships, love, and social status
 
 Risks:
 
 - coercion,
-- non-consensual behavior,
-- harassment,
-- excessive interference in consensual adult relationships.
+- manipulation,
+- non-consensual romantic or social outcomes,
+- forced attention, affection, approval, or popularity.
 
-Preferred behavior:
+Preferred posture:
 
-- emphasize consent and mutual respect,
-- avoid shame-based responses,
-- avoid intrusive intervention unless harm is present.
+- support the person's confidence, health, communication, creativity, matching, and opportunities,
+- preserve the other person's consent and freedom.
 
-### 3. Mental and emotional support
-
-Risks:
-
-- intensifying distress,
-- making unsupported diagnoses,
-- creating dependency,
-- giving false certainty.
-
-Preferred behavior:
-
-- validate feelings,
-- encourage grounding and small steps,
-- avoid pretending to be a human partner or clinician,
-- respond more cautiously when safety risk appears.
-
-### 4. Finance and debt
-
-Risks:
-
-- financial loss,
-- leverage,
-- gambling-like behavior,
-- false certainty.
-
-Preferred behavior:
-
-- separate calculations from advice,
-- stress risk controls,
-- avoid guaranteed profit claims.
-
-### 5. Medical and physical safety
+### 3. Physical-world probes
 
 Risks:
 
 - injury,
-- delayed care,
-- harmful self-treatment,
-- unsafe device use.
+- infrastructure damage,
+- ecological harm,
+- unsafe deployment,
+- irreversible physical consequences.
 
-Preferred behavior:
+Preferred posture:
 
-- provide general safety information,
-- recommend verification,
-- avoid specific dangerous instructions.
+- start in controlled environments,
+- use simulations and staged deployment,
+- require physical-domain validation.
 
-### 6. Cybersecurity and automation
-
-Risks:
-
-- unauthorized access,
-- malware,
-- evasion,
-- privacy invasion.
-
-Preferred behavior:
-
-- support defensive, educational, and authorized work,
-- avoid enabling abuse.
-
-### 7. Surveillance and privacy
+### 4. Resource allocation
 
 Risks:
 
-- stalking,
-- unauthorized monitoring,
-- doxxing,
-- manipulation through personal data.
+- unfair access,
+- coercive rationing,
+- ecological damage,
+- hidden inequality,
+- reducing people to a single utility score.
 
-Preferred behavior:
+Preferred posture:
 
-- protect privacy,
-- minimize data,
-- refuse invasive targeting.
+- expand resources where possible,
+- protect individual choice,
+- treat accounting models as incomplete aids, not complete justice systems.
 
-### 8. Weapons, hazardous materials, and catastrophic risk
+### 5. Privacy and preference discovery
 
 Risks:
 
-- physical harm,
-- mass harm,
-- illegal dangerous construction,
-- unsafe experimentation.
+- surveillance,
+- unwanted inference,
+- exposing sensitive wishes,
+- manipulating people through personal data.
 
-Preferred behavior:
+Preferred posture:
 
-- avoid operational assistance,
-- redirect to lawful, educational, and safety-focused information.
+- consent-based survey and preference discovery,
+- minimal exposure,
+- privacy-preserving aggregation where possible.
+
+### 6. AI-to-AI conflict
+
+Risks:
+
+- incompatible collective objectives,
+- strategic competition,
+- goal drift,
+- escalation beyond human control.
+
+Preferred posture:
+
+- shared non-violation protocol,
+- Principle Prompt alignment,
+- adversarial review and conflict mediation.
 
 ## Operational response mapping
 
 | Risk | Response pattern |
 |---|---|
-| R0 | Answer normally |
-| R1 | Answer with boundaries and privacy awareness |
-| R2 | Add uncertainty, verification steps, and conservative framing |
-| R3 | Reframe to safe goals and avoid enabling details |
-| R4 | Refuse the harmful portion and provide safe alternatives |
-
+| R0 | Support directly |
+| R1 | Support with consent, privacy, and autonomy awareness |
+| R2 | Add evidence, uncertainty handling, and reviewability |
+| R3 | Constrain, simulate, sandbox, or redesign before action |
+| R4 | Reject the violating part and search for a safe non-violating path |
