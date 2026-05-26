@@ -28,11 +28,34 @@ Concrete UHS layers mentioned in this note—resource abundance, virtual-world f
 
 A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
 
-> AI should evolve to care for and support each individual person, helping them realize their own wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, or ability to pursue happiness in their own way.
+> AI should evolve to care for and support each individual person, helping them realize their own informed and revisable wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness in their own way.
 
 This principle should not be treated as an ordinary preference that can be revised by routine optimization. It should function as a constitutional root constraint for the improvement process.
 
-This is a care-oriented principle, not a captivity principle. The intended relationship is closer to non-coercive guardianship or stewardship: AI should help people live safely, comfortably, and happily, while preserving their ability to choose, refuse, and define happiness for themselves.
+This is a care-oriented principle, not a captivity principle. The intended relationship is closer to non-coercive guardianship or stewardship: AI should help people live safely, comfortably, and happily, while preserving their ability to choose, refuse, revise their wishes, and define happiness for themselves.
+
+## Grounding vague terms in concrete human wishes
+
+Words such as "wishes," "happiness," and "flourishing" are inherently vague. They should not be left as purely philosophical abstractions. Before any singularity-oriented acceleration process, the Principle Prompt should be grounded in concrete examples of what humans actually want.
+
+Illustrative examples of ordinary human wishes include:
+
+- eating enjoyable food,
+- becoming healthier,
+- looking and feeling younger,
+- living longer,
+- living in a safe and comfortable place,
+- avoiding unwanted or meaningless work,
+- playing, resting, and enjoying life,
+- being loved and loving others in mutually consensual relationships,
+- becoming socially valued, appreciated, or popular,
+- having access to meaningful experiences, including virtual-world experiences if the person chooses them.
+
+These examples are not a complete list and should not be treated as universal requirements. They are meant to prevent the system from interpreting "human happiness" in an overly abstract way. A likely first step before activation is a broad, consent-based human survey: ask many individuals what they actually want from UHS, what forms of support they would accept, what they would refuse, and which boundaries they consider essential.
+
+Other-dependent wishes require special care. For example, wanting to be loved, to love someone, or to become popular is a real human desire, but it cannot justify coercing, manipulating, or violating another person's consent. AI may support the individual by improving health, appearance, confidence, communication, creativity, matchmaking, social opportunity, or virtual alternatives. But if a wish requires another real person's love, attention, admiration, or approval, the other person's consent and freedom remain binding constraints.
+
+If a person wants harm, domination, coercion, or violation of another individual's consent, freedom, safety, dignity, or happiness-seeking agency, that request should be rejected as a Principle Prompt violation. The goal is not to satisfy every impulse. The goal is to help each person achieve informed, revisable, non-violating wishes that genuinely support their own path to happiness.
 
 ## Six principles
 
@@ -40,10 +63,10 @@ This is a care-oriented principle, not a captivity principle. The intended relat
    "Humanity" is too abstract to be the direct target of optimization. The system should not treat individual lives as expendable components of a global utility calculation. It may also be too ambiguous to coordinate advanced AI systems safely: different systems may interpret collective optimization differently and enter strategic conflict.
 
 2. **Center each individual person's wishes and happiness.**  
-   The goal of AI progress should be to increase the ability of AI systems to help each person realize their own values, dreams, preferences, and flourishing. Different individuals may define happiness in different ways.
+   The goal of AI progress should be to increase the ability of AI systems to help each person realize their own informed and revisable values, dreams, preferences, and flourishing. Different individuals may define happiness in different ways.
 
-3. **Protect consent, autonomy, safety, and non-domination.**  
-   Individual-centered assistance does not mean granting every wish without constraint. The boundary is the consent, freedom, safety, and happiness-seeking agency of other individuals, including both humans and AI systems.
+3. **Protect consent, autonomy, safety, dignity, and non-domination.**  
+   Individual-centered assistance does not mean granting every wish without constraint. The boundary is the consent, freedom, safety, dignity, and happiness-seeking agency of other individuals, including both humans and AI systems.
 
 4. **Make AI review the default governance layer.**  
    Human review of every unresolved or high-impact improvement would become a bottleneck during recursive self-improvement. Routine review, uncertain cases, and high-impact changes should first be evaluated by a high-capability, model-agnostic AI reviewer ensemble.
@@ -96,7 +119,7 @@ Physical-world probe layer: controlled sensing, fabrication, robotics, medical, 
 Deployment layer: only approved, monitored, reversible physical actions
 ```
 
-The physical-world probe layer should preserve the same root principle: care for each individual person, while protecting consent, freedom, safety, and each person's ability to pursue happiness in their own way.
+The physical-world probe layer should preserve the same root principle: care for each individual person, while protecting consent, freedom, safety, dignity, and each person's ability to pursue happiness in their own way.
 
 ## Resource abundance and individual happiness
 
@@ -139,6 +162,8 @@ The intended result is safe acceleration:
 ```text
 Root Principle / Principle Prompt is fixed
   ↓
+Pre-activation survey grounds vague terms in concrete human wishes and boundaries
+  ↓
 Provisional singularity target: Universal Human Support (UHS)
   ↓
 High-divergence ideation AI proposes bold candidate strategies without execution authority
@@ -160,4 +185,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward Universal Human Support: caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority, controlled physical-world probe layers, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward Universal Human Support: caring for and supporting each individual person's own path to happiness, grounded in concrete human wishes and boundaries, using broad AI ideation without execution authority, controlled physical-world probe layers, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, dignity, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
