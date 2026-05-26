@@ -10,15 +10,17 @@ That framing is dangerous because it can turn individual people into variables i
 
 The safer target is different:
 
-> AI systems should become increasingly capable of helping each individual person pursue their own wishes, happiness, and flourishing in their own way, while preserving the consent, freedom, safety, and happiness-seeking agency of other individuals, including both humans and AI systems.
+> AI systems should become increasingly capable of caring for and supporting each individual person so they can pursue their own wishes, happiness, and flourishing in their own way, while preserving the consent, freedom, safety, and happiness-seeking agency of other individuals, including both humans and AI systems.
 
 ## Root principle
 
 A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
 
-> AI should evolve to help each individual person realize their own wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, or ability to pursue happiness in their own way.
+> AI should evolve to care for and support each individual person, helping them realize their own wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, or ability to pursue happiness in their own way.
 
 This principle should not be treated as an ordinary preference that can be revised by routine optimization. It should function as a constitutional root constraint for the improvement process.
+
+This is a care-oriented principle, not a captivity principle. The intended relationship is closer to non-coercive guardianship or stewardship: AI should help people live safely, comfortably, and happily, while preserving their ability to choose, refuse, and define happiness for themselves.
 
 ## Six principles
 
@@ -47,6 +49,8 @@ A common objection to individual-centered AI is resource conflict: what happens 
 One possible long-term answer is not to force a single definition of happiness, but to increase available resources and optionality. Advanced AI could help improve energy generation, recycling, manufacturing, logistics, virtual worlds, and immersive interfaces so that more people can pursue their own preferred forms of happiness without coercively competing over scarce resources.
 
 For example, some individuals may prefer highly developed virtual worlds where their wishes can be fulfilled more flexibly than in physical reality. Others may prefer physical-world flourishing. The principle should not force one path. It should preserve each individual's ability to choose, while preventing violations of others' consent, freedom, and safety.
+
+Resource allocation may eventually require quantitative accounting across energy, matter, computation, land, manufacturing capacity, and environmental constraints. Mass-energy equivalence, such as E = mc^2, can be viewed as an intuitive reminder that matter and energy are connected and that physical resources are ultimately finite. However, this repository does not claim that mass-energy accounting alone is a complete theory of fairness, access, utility, or rights.
 
 This repository does not claim that any specific resource-allocation method is complete. It treats resource expansion, virtual-world development, and fair allocation as examples of possible implementation directions under the root principle.
 
@@ -83,4 +87,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward helping each individual person realize their own wishes and happiness in their own way, while a difficult-to-change Principle Prompt protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, while a difficult-to-change Principle Prompt protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way.
