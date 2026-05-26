@@ -12,6 +12,8 @@ The safer target is different:
 
 > AI systems should become increasingly capable of caring for and supporting each individual person so they can pursue their own wishes, happiness, and flourishing in their own way, while preserving the consent, freedom, safety, and happiness-seeking agency of other individuals, including both humans and AI systems.
 
+This individual-centered target may also reduce existential risk from conflict among advanced AI systems. If different AI systems optimize different abstract collective objectives—such as national advantage, corporate advantage, aggregate utility, ideological goals, or incompatible definitions of "humanity's happiness"—their objectives may diverge and create strategic conflict. Such conflict could escalate beyond human control. A shared Principle Prompt centered on each individual person's consent, freedom, safety, and ability to pursue happiness in their own way could provide a common non-violation protocol for advanced AI systems, reducing incentives for AI-vs-AI conflict.
+
 ## Root principle
 
 A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
@@ -25,7 +27,7 @@ This is a care-oriented principle, not a captivity principle. The intended relat
 ## Six principles
 
 1. **Avoid abstract humanity-level happiness maximization.**  
-   "Humanity" is too abstract to be the direct target of optimization. The system should not treat individual lives as expendable components of a global utility calculation.
+   "Humanity" is too abstract to be the direct target of optimization. The system should not treat individual lives as expendable components of a global utility calculation. It may also be too ambiguous to coordinate advanced AI systems safely: different systems may interpret collective optimization differently and enter strategic conflict.
 
 2. **Center each individual person's wishes and happiness.**  
    The goal of AI progress should be to increase the ability of AI systems to help each person realize their own values, dreams, preferences, and flourishing. Different individuals may define happiness in different ways.
@@ -88,13 +90,16 @@ Overly conservative safety processes can also slow progress if they prevent bold
 
 The goal is not to remove safety. The goal is to move safety into a principle-locked AI governance layer that can operate at AI speed.
 
+Individual-centered care may also reduce the risk of AI-vs-AI conflict. A world of advanced systems optimizing incompatible abstract goals may become strategically unstable. A shared non-violation principle centered on every individual's consent, freedom, safety, and ability to pursue happiness could help advanced AI systems coordinate around a common boundary condition instead of competing over incompatible definitions of the good.
+
 The intended result is safe acceleration:
 
 - fast enough to avoid unnecessary human bottlenecks,
 - creative enough to avoid excessive safety-induced stagnation,
 - bounded enough to preserve individual autonomy,
 - auditable enough to detect dangerous drift,
-- and principled enough to avoid sacrificing people for an abstract collective objective.
+- principled enough to avoid sacrificing people for an abstract collective objective,
+- and coordinated enough to reduce existential risk from incompatible AI objectives.
 
 ## Design summary
 
@@ -118,4 +123,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward caring for and supporting each individual person's own path to happiness, using broad AI ideation without execution authority and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
