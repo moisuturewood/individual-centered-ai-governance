@@ -1,6 +1,6 @@
 # Ethical AI Operating Framework
 
-This repository contains an early, AI-assisted conceptual framework for **Individual-Centered Safe Acceleration**.
+This repository contains an early, AI-assisted conceptual framework for **Individual-Centered Safe Acceleration**: instead of directly optimizing an abstract notion of "humanity's total happiness," it aims to improve overall human flourishing and stability by helping each individual person pursue happiness, freedom, safety, and dignity in their own way.
 
 The central note is:
 
