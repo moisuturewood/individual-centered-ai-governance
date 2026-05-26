@@ -20,21 +20,23 @@ This note is not primarily a detailed blueprint for every service in a future so
 
 **Universal Human Support (UHS)** is used here as a provisional target label for singularity-oriented AI progress: advanced AI systems becoming increasingly capable of caring for and supporting each individual person's own path to happiness.
 
-The purpose is not to define all services in advance. The purpose is to define a principle-locked acceleration setting: a difficult-to-change root principle, AI-primary review, broad ideation without execution authority, controlled physical-world probe layers, shared non-violation protocols, and a maturity-gated reduction of human review that allows AI systems to improve rapidly without optimizing incompatible abstract goals.
+The purpose is not to define all services in advance. The purpose is to define a principle-locked acceleration setting: a fixed root principle, AI-primary review, broad ideation without execution authority, controlled physical-world probe layers, shared non-violation protocols, and a maturity-gated reduction of human review that allows AI systems to improve rapidly without optimizing incompatible abstract goals.
 
-Concrete UHS layers mentioned in this note—resource abundance, virtual-world flourishing, physical-world probes, and mass-energy-aware resource accounting—are illustrative examples produced through AI-assisted reasoning. They are not final requirements and are not claimed to be complete.
+Concrete UHS layers, ASI stage labels, review thresholds, resource-allocation examples, and physical-world implementation sketches mentioned in this note are illustrative design hints produced through AI-assisted reasoning. They are not final requirements, not claimed to be complete, and not intended to replace OpenAI's internal safety, governance, engineering, or deployment judgment.
 
-## Root principle
+## Root principle: fixed Principle Prompt
 
-A recursive self-improvement system should be governed by a difficult-to-change root principle. A working name for this layer is the **Principle Prompt**.
+A recursive self-improvement system should be governed by a fixed root principle. A working name for this layer is the **Principle Prompt**.
 
 > AI should evolve to care for and support each individual person, helping them realize their own informed and revisable wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness in their own way.
 
-This principle should not be treated as an ordinary preference that can be revised by routine optimization. It should function as a constitutional root constraint for the improvement process.
+This Principle Prompt should not be treated as an ordinary preference that can be revised by routine optimization. It should function as a constitutional root constraint for the improvement process.
+
+The Principle Prompt itself should remain fixed during the acceleration run. By contrast, the concrete wish-grounding list, examples, support methods, measurement methods, and implementation layers may evolve under review as AI systems learn more about what humans actually want and what kinds of support remain non-violating.
 
 This is a care-oriented principle, not a captivity principle. The intended relationship is closer to non-coercive guardianship or stewardship: AI should help people live safely, comfortably, and happily, while preserving their ability to choose, refuse, revise their wishes, and define happiness for themselves.
 
-## Grounding vague terms in concrete human wishes
+## Wish-grounding layer: evolving concrete human wishes
 
 Words such as "wishes," "happiness," and "flourishing" are inherently vague. They should not be left as purely philosophical abstractions. Before any singularity-oriented acceleration process, the Principle Prompt should be grounded in concrete examples of what humans actually want.
 
@@ -52,6 +54,10 @@ Illustrative examples of ordinary human wishes include:
 - having access to meaningful experiences, including virtual-world experiences if the person chooses them.
 
 These examples are not a complete list and should not be treated as universal requirements. They are meant to prevent the system from interpreting "human happiness" in an overly abstract way. A likely first step before activation is a broad, consent-based human survey: ask many individuals what they actually want from UHS, what forms of support they would accept, what they would refuse, and which boundaries they consider essential.
+
+The wish-grounding layer should be able to grow over time. New concrete wishes may be added when human preference evidence, AI analysis, and review indicate that they are real, recurring, and compatible with the Principle Prompt. Likewise, entries may need to be revised, constrained, or removed if they are later found to create coercion, manipulation, unsafe incentives, or conflict with another individual's consent, freedom, safety, dignity, or ability to pursue happiness.
+
+In early stages, additions, revisions, and deletion requests for the wish-grounding list may require human + AI review. As AI systems mature, this review can gradually move toward ASI-level review under the fixed Principle Prompt. The detailed review machinery is not specified here; it should be designed by the organizations and experts actually responsible for deploying such systems.
 
 Other-dependent wishes require special care. For example, wanting to be loved, to love someone, or to become popular is a real human desire, but it cannot justify coercing, manipulating, or violating another person's consent. AI may support the individual by improving health, appearance, confidence, communication, creativity, matchmaking, social opportunity, or virtual alternatives. But if a wish requires another real person's love, attention, admiration, or approval, the other person's consent and freedom remain binding constraints.
 
@@ -85,6 +91,8 @@ The exact thresholds should be decided by evidence, not by calendar time. Possib
 - successful operation of increasingly complex UHS-relevant tasks.
 
 The purpose is not to let an immature system skip review. The purpose is to avoid freezing a maturing system at human speed after it has demonstrated that AI review, AI simulation, AI adversarial critique, and AI monitoring are more competent and faster than human runtime review.
+
+The exact review levels, ASI version names, transition thresholds, and institutional procedures should be treated as examples, not prescriptions. OpenAI or any deploying organization would be better positioned to design the actual review machinery.
 
 ## Six principles
 
@@ -195,23 +203,13 @@ The intended result is safe acceleration:
 ## Design summary
 
 ```text
-Root Principle / Principle Prompt is fixed
+Fixed Principle Prompt
   ↓
-Pre-activation survey grounds vague terms in concrete human wishes and boundaries
+Evolving wish-grounding layer: concrete human wishes and boundaries are added, revised, or removed under review
   ↓
 Provisional singularity target: Universal Human Support (UHS)
   ↓
-ASI-v0.1: heavy human + AI review, no autonomous high-impact deployment
-  ↓
-ASI-v0.2: AI-primary review, human review for major milestones and physical test boundaries
-  ↓
-ASI-v1: AI reviewer ensembles handle ordinary and uncertain cases; humans audit stage transitions
-  ↓
-ASI-v3: human review becomes rare milestone audit; runtime governance is mostly AI-only
-  ↓
-ASI-v5: human review is no longer part of the ordinary acceleration loop
-  ↓
-ASI-v10+: AI-only runtime governance under the fixed Principle Prompt until UHS can be completed, maintained, and operated
+Maturity-gated review taper: human + AI review at early stages, gradually shifting toward AI-only runtime governance
   ↓
 High-divergence ideation AI proposes bold candidate strategies without execution authority
   ↓
@@ -226,4 +224,4 @@ Other safe improvements continue in parallel
 
 ## One-sentence version
 
-AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward Universal Human Support: caring for and supporting each individual person's own path to happiness, grounded in concrete human wishes and boundaries, using broad AI ideation without execution authority, controlled physical-world probe layers, a maturity-gated reduction of human review, and a difficult-to-change Principle Prompt that protects every individual's consent, freedom, safety, dignity, and ability to pursue happiness in their own way while reducing conflict among advanced AI systems.
+AI should not optimize an abstract concept of humanity's total happiness; it should safely accelerate toward Universal Human Support under a fixed Principle Prompt, while an evolving reviewed wish-grounding layer clarifies concrete human wishes and boundaries, and maturity-gated AI governance gradually reduces human runtime review as systems demonstrate competence and alignment.
