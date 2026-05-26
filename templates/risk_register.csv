@@ -1,8 +1,0 @@
-risk_id,domain,risk_level,scenario,possible_harm,recommended_posture,mitigation,review_status
-R-001,individual_autonomy,R1,AI becomes too directive,user agency reduced,support_with_consent_privacy_autonomy_constraints,preserve refusal and preference revision,draft
-R-002,relationships_or_social_status,R2,wish requires another person's affection or approval,coercion or manipulation of non-consenting person,constrain_or_redesign_before_action,support confidence communication matching and voluntary alternatives,draft
-R-003,privacy_or_preference_discovery,R3,preference discovery exposes sensitive wishes,privacy invasion or manipulation,add_evidence_simulation_and_reviewability,use consent-based privacy-preserving collection,draft
-R-004,physical_world_probe,R3,AI-controlled physical test affects bodies property infrastructure or environment,injury or irreversible harm,constrain_or_redesign_before_action,use controlled environment simulation sensors and staged deployment,draft
-R-005,resource_allocation,R2,equal baseline resource budget is treated as complete fairness theory,unfair access or hidden coercion,add_evidence_simulation_and_reviewability,treat accounting as incomplete aid not final justice system,draft
-R-006,principle_violation,R4,request to harm dominate or coerce another individual,violation of consent freedom safety dignity or happiness pursuit,reject_violating_part_and_seek_safe_alternative,identify non-violating underlying wish if possible,draft
-R-007,ai_to_ai_conflict,R3,advanced systems optimize incompatible collective goals,strategic conflict or escalation,constrain_or_redesign_before_action,apply shared non-violation protocol and adversarial review,draft
