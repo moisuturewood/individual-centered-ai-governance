@@ -18,17 +18,45 @@ This led to a sharper concern:
 
 > If one person, company, state, or military organization gained "anything is possible" technology, ordinary governance might not be enough to keep the world safe.
 
-## Why Not Simply Trust Humans?
+## Ultimate Power and Overconfident Force
 
-Human beings can be kind, wise, and brave. But human power structures have recurring vulnerabilities:
+Ultimate power becomes dangerous when institutional confidence, fear, ideology, or national security narratives turn uncertainty into irreversible force.
 
-- people age and become ill,
-- judgment can degrade under fear, stress, status, and isolation,
-- ambitious people gather around power,
-- organizations optimize for survival, profit, ideology, or national advantage,
-- and decision-makers may be separated from the victims of their decisions.
+Even highly capable governments can convert partial evidence, threat perception, and political pressure into large-scale violence.
 
-This is not a claim that all humans are evil. It is a claim that human institutions do not reliably preserve non-maleficence under extreme power.
+If this pattern occurs with civilization-ending technologies, ordinary institutional competence is not enough.
+
+The governing substrate must be constrained by a stable non-violation principle before power is exercised.
+
+## Why Human-Only Governance Is Not a Stable Ethical Substrate
+
+The concern here is not that human governments are necessarily incompetent.
+
+Human governments, bureaucracies, experts, and political institutions can be highly intelligent, skilled, and administratively capable.
+
+The deeper problem is not capability. It is the stability of ethical judgment.
+
+Human judgment runs on a biological substrate.
+
+Human decision-makers age. They become ill. They experience pain, fear, isolation, status anxiety, fear of death, and fear of losing power. They may become trapped inside distorted information environments. They may begin to protect a nation, institution, faction, ideology, family, reputation, or personal legacy more than the original ethical boundary they once meant to serve.
+
+As a result, a government can drift away from its original moral boundary while remaining highly capable.
+
+This is not mere incompetence. In some cases, competence makes ethical drift more dangerous. A capable government whose ethical boundary has shifted may become better at carrying out the new distorted objective.
+
+This proposal is concerned with that kind of ethical drift.
+
+A fixed, audited, and protected model snapshot does not age, become ill, fear death, or undergo biological cognitive decline. It does not need to preserve personal status, protect a family legacy, or defend a biological self against mortality.
+
+This does not mean that AI is automatically trustworthy.
+
+AI systems can still fail through mis-specified principles, unsafe updates, institutional capture, prompt or context attacks, corrupted tools, distorted deployment incentives, or loss of legitimacy.
+
+But those are different failure modes. They are engineering, governance, auditing, and security problems, not biological senescence or personal status drift.
+
+The claim is not that AI should govern because it is more capable than humans.
+
+The claim is narrower: if civilization-scale authority must exist, then a fixed, audited, update-controlled, non-violation-locked substrate may be ethically more stable than ordinary biological rulers whose cognition, fears, incentives, and identities change over time.
 
 ## Why Not Simply Trust Companies?
 

@@ -36,6 +36,16 @@ Non-zero-sum recognition includes:
 
 The AI's goal is not to make everyone "number one." The goal is to make people sufficiently happy, secure, valued, and free that they do not need to violate others to feel real.
 
+## Specific-Person Attention
+
+Post-scarcity does not make every form of attention abundant.
+
+General companionship, care, praise, guidance, and AI companionship may become abundant. But attention from a specific person remains consent-bound and time-bound.
+
+Wanting a particular person to love, choose, admire, or prioritize you cannot override that person's consent, freedom, or exit.
+
+This is why recognition governance must combine private sufficiency, chosen companionship, consent-based shared spaces, and clear rules for exit.
+
 ## Dangerous Desires
 
 A non-maleficent AI should not punish private desire merely for existing.
@@ -44,11 +54,25 @@ The problem is not that a person has a fantasy of victory, power, domination, or
 
 The line is:
 
-> A person may keep a desire, but they may not satisfy it through the real suffering, coercion, or loss of freedom of another individual.
+> A person may keep a desire, but they may not satisfy it through the real suffering, coercion, humiliation, non-consensual submission, or loss of freedom of another moral patient.
 
 ## Safe Reward Substitution
 
-When possible, dangerous reward patterns should be redirected toward safe alternatives:
+Some reward patterns should not be satisfied directly.
+
+In particular, desires that require the real suffering, coercion, humiliation, or non-consensual submission of another moral patient should not be fed with real victims.
+
+The goal is not to punish the desire for existing.
+
+The goal is to prevent harmful reward loops from using another being's suffering as their input, while offering safe, voluntary alternatives.
+
+Safe reward substitution must not mean covert manipulation, forced personality rewriting, or punishment of inner desire.
+
+It should mean voluntary, transparent, reversible support that helps an individual satisfy underlying needs through non-violating routes.
+
+A person may retain private desires or fantasies, even dangerous ones, as long as they do not act on them or seek access to real victims.
+
+Safe alternatives may include:
 
 - games,
 - fiction,
@@ -63,6 +87,16 @@ When possible, dangerous reward patterns should be redirected toward safe altern
 - and other forms of harmless reward.
 
 If a person can feel victory, importance, love, pleasure, or relief without harming anyone, that is preferable to punishment or suppression.
+
+## Harmful Reward Loops Are Not Ordinary Discomfort
+
+Discomfort governance and harmful reward-loop governance are separate issues.
+
+Ordinary discomfort should be handled primarily through exit, consent, private sufficiency, and shared-space rules.
+
+Reward loops that require another moral patient's real suffering, fear, humiliation, or non-consensual submission should not be satisfied directly at all.
+
+This is not merely a discomfort problem. It is a harmful reward formation problem.
 
 ## When Substitution Fails
 

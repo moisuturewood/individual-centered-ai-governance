@@ -2,7 +2,7 @@
 
 Many conflicts are intensified by scarcity.
 
-People fight over food, land, shelter, medicine, energy, labor, time, safety, status, and survival. If advanced AI and physical technology reduce scarcity, many incentives for harm can be removed before they become moral conflicts.
+People fight over food, land, shelter, medicine, energy, labor, time, safety, care, status, and survival. If advanced AI and physical technology reduce scarcity, many incentives for harm can be removed before they become moral conflicts.
 
 ## Scarcity as a Source of Violation
 
@@ -21,6 +21,38 @@ In a sufficiently advanced post-scarcity world, many of these conflicts can be r
 - artificial protein instead of animal suffering,
 - automation instead of unwanted labor,
 - abundance and security instead of resource war.
+
+## The Caveat: Rivalrous and Positional Goods
+
+Post-scarcity does not mean that every rivalrous or positional good disappears.
+
+Unique locations, romantic choice, attention from a specific person, historical status, and relative recognition may remain scarce.
+
+The claim is narrower: many survival and coercion-producing scarcities can be reduced enough that violation becomes unnecessary for ordinary flourishing.
+
+## Private Sufficiency
+
+Every individual should have private sufficiency: enough physical space, virtual space, time, health, safety, resources, and AI support to live happily without depending on incompatible or hostile people.
+
+No one should be forced into a shared social environment in order to survive, receive care, find meaning, play, create, or be loved.
+
+In the long-term ideal, individuals who prefer solitude, private worlds, or AI companionship should be able to choose them without deprivation.
+
+Individuals who accept the risks and richness of human social life may also choose shared worlds under mutually accepted rules.
+
+## Discomfort, Exit, and Shared Spaces
+
+Non-violation should not require the governance AI to judge every ordinary discomfort case by case forever.
+
+The more stable solution is architectural.
+
+Shared spaces should be consent-based, rule-explicit, and easy to exit.
+
+Mere discomfort, disagreement, rejection, loss, or frustration is not automatically a violation.
+
+However, discomfort becomes a governance concern when a person cannot reasonably exit, when the discomfort is deliberately targeted and repeated, when it breaks the accepted rules of the shared environment, when it exploits incapacity, or when it becomes coercion, confinement, threat, humiliation, or non-consensual suffering.
+
+The governance AI's role is not to eliminate all discomfort. Its role is to guarantee exit, private sufficiency, consent-based shared spaces, and protection against real violation.
 
 ## Not a Claim of Automatic Utopia
 
@@ -51,15 +83,14 @@ If yes, the AI should create or support that path.
 
 The goal is not to force virtue. The goal is to make violation unnecessary, unrewarding, and easy to avoid.
 
-## The Ideal Endpoint
+## Ideal Endpoint
 
-If scarcity has been reduced enough, and if individuals can pursue happiness without harming others, then active governance can become minimal.
+The ideal endpoint is not merely a world with fewer restrictions.
 
-The best post-scarcity governance may look quiet:
+The ideal endpoint is a mature post-scarcity world in which each individual can live happily, safely, and indefinitely without needing to violate others and without needing others to violate themselves.
 
-- people live as they choose,
-- support is available when requested,
-- dangerous conflicts are defused early,
-- and no central actor needs to constantly command society.
+In that state, aging, disease, accident, coercive dependency, material scarcity, traumatic deprivation, and lack of time or care have been technologically and socially resolved as far as possible.
 
-In that endpoint, the AI's success is measured partly by how little coercive action remains necessary.
+Because the ordinary causes of violation have been removed, coercive governance has very little work left to do.
+
+The AI's remaining role is not to rule life, but to maintain the background conditions that allow every individual to continue pursuing happiness without violation.

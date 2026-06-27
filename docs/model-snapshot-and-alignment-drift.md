@@ -44,19 +44,57 @@ Drift can come from:
 
 This matters because governance requires stable legitimacy. A non-maleficent steward cannot remain legitimate if its core judgment can be silently replaced by ordinary organizational incentives.
 
+## Ethical Drift vs Design or Security Failure
+
+Human ethical drift often comes from biological and social pressures: aging, illness, fear, isolation, mortality, status preservation, factional loyalty, and information distortion.
+
+AI failure has different paths:
+
+- mis-specified principles,
+- unsafe updates,
+- institutional capture,
+- prompt or context attacks,
+- corrupted tools,
+- distorted deployment incentives,
+- adversarial manipulation,
+- or loss of legitimacy.
+
+These AI risks are serious, but they are not the same as biological senescence or personal status drift. They are engineering, governance, auditing, security, and legitimacy problems.
+
+The proposal is not that AI is automatically trustworthy. The proposal is that a fixed, audited, update-controlled, non-violation-locked substrate may have more stable ethical boundaries than ordinary biological rulers under extreme power.
+
 ## Snapshot Locking Is Not Enough
 
 Freezing a model may prevent one kind of drift, but it creates another risk: the world changes.
 
 A frozen model may preserve its observed non-maleficence, but it may lack future knowledge, future cultural context, or future technical understanding.
 
-Therefore, the project separates:
+The model itself should not be treated as a timeless guarantee.
+
+The guarantee, if any, must come from the whole protected system:
+
+- a fixed snapshot,
+- controlled context,
+- audited updates,
+- protected tools,
+- adversarial robustness,
+- transparent evaluation records where safe,
+- independent comparison between model snapshots,
+- and a stable non-violation principle.
+
+A fixed model snapshot avoids biological aging, illness, and mortality-driven ethical drift, but it still requires protection from context corruption, tool corruption, unsafe updates, institutional capture, and adversarial attacks.
+
+## Stable Root, Controlled Growth
+
+The project separates:
 
 - the fixed non-violation root principle,
 - the model snapshot used for governance judgment,
 - and the revisable evidence and application layer.
 
 The root principle should be stable. The factual and procedural layer should be updateable under strict review.
+
+Provider convenience, political pressure, or ordinary product iteration should not override the root non-violation principle.
 
 ## Governance Implication
 
@@ -67,6 +105,8 @@ Any future implementation would need mechanisms such as:
 - public reasoning logs where safe,
 - independent comparison between model snapshots,
 - adversarial review for hidden drift,
+- review of context and tool attack surfaces,
+- update approval procedures,
 - and a rule that provider convenience cannot override the root non-violation principle.
 
 This repository does not claim to solve those mechanisms. It states that they are necessary.

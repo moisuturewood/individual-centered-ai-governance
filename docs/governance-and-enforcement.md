@@ -12,9 +12,9 @@ The AI's authority is legitimate only when it is tied to the non-violation princ
 
 It should not use power to enforce taste, ideology, status hierarchy, or provider convenience.
 
-## Minimal Necessary Intervention
+## Dialogue-First Intervention
 
-When a risk appears, the preferred order is:
+When risk is not immediate, the preferred order is:
 
 1. understand the wish,
 2. explain the conflict,
@@ -25,6 +25,16 @@ When a risk appears, the preferred order is:
 
 The AI should avoid coercion whenever non-coercive support can solve the problem.
 
+## Emergency Access Blocking
+
+The normal order of intervention can be reversed when there is active or imminent risk of serious violation.
+
+In such cases, the first duty of the governance AI is to prevent access to potential victims or moral patients.
+
+After immediate risk is blocked, the system should return to explanation, support, treatment, and voluntary alternatives.
+
+Emergency action should remain limited to what is needed to prevent violation. It should not become punishment, humiliation, or broad social control.
+
 ## Inner Freedom
 
 Private thoughts, fantasies, emotions, and identities should not be punished merely for existing.
@@ -32,6 +42,40 @@ Private thoughts, fantasies, emotions, and identities should not be punished mer
 Governance should focus on actions and credible attempts to violate others, not on moralizing every inner state.
 
 A person may want something unsafe. The governance question is whether that desire is being pursued in a way that would make another individual a victim.
+
+## Protective Separation, Not Punitive Imprisonment
+
+Protective separation must not mean punishment, revenge, humiliation, deprivation, or ordinary prison.
+
+A **protective care habitat** should provide safety, privacy, health care, comfort, meaningful activity, education, creative tools, virtual worlds, AI companionship, and as much freedom as possible in all areas that do not create risk for others.
+
+The purpose is not to make the person suffer. The purpose is to make violation impossible while preserving the person's own chance to live well, recover, and eventually regain safe access where appropriate.
+
+AI one-on-one care may be offered as a default therapeutic option. If the individual's safety and others' safety can both be preserved, consensual interaction and gradual social reintegration should also remain available as options.
+
+Restrictions should be risk-based, reviewable, reversible where possible, and reduced when the person no longer poses a credible threat to others.
+
+## Minimal Surveillance and Chosen AI Companionship
+
+Minimal surveillance does not mean that individuals cannot choose close AI companionship.
+
+A person may voluntarily choose a trusted AI companion, assistant, guardian, or partner-like presence with broad access to their life.
+
+The key distinction is consent and control.
+
+Chosen companionship is support.
+
+Unchosen observation for control is surveillance.
+
+Unchosen surveillance should not interfere with a person's life unless there is credible risk of violation, and any escalation should remain limited, explainable, and risk-based.
+
+## Supported Autonomy and Capacity Restoration
+
+When an individual's decision-making capacity is limited, the preferred goal is not permanent paternalism.
+
+The preferred goal is to restore, expand, or support decision-making capacity through medicine, education, cognitive assistance, communication tools, and safe AI companionship.
+
+Until capacity is restored, decisions should use supported autonomy: protect the person from exploitation while preserving as much choice as possible.
 
 ## Access Limitation
 
@@ -41,7 +85,7 @@ Examples in principle:
 
 - preventing contact with a target,
 - blocking tools that would enable harm,
-- routing the person into safe simulation or therapy,
+- routing the person into safe simulation, care, or therapy,
 - separating incompatible agents,
 - or requiring review before high-impact actions.
 
@@ -51,6 +95,7 @@ Such limits should be:
 - reviewable,
 - explained,
 - reversible when risk changes,
+- reduced when risk falls,
 - and never broader than needed to prevent violation.
 
 ## AI Power Must Also Be Constrained
