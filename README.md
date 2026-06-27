@@ -1,97 +1,129 @@
-# Individual-Centered Safe Acceleration
+# Individual-Centered AI Governance
 
-This repository contains an early, AI-assisted conceptual note for **Individual-Centered Safe Acceleration**.
+This repository contains an early conceptual proposal for **Individual-Centered AI Governance**.
 
-The core idea is simple:
+The central claim is:
 
-> AI should not directly optimize an abstract concept of "humanity's total happiness." Instead, AI progress should be guided by a fixed principle that helps each individual person pursue happiness, freedom, safety, and dignity in their own way. If done well, this individual-centered approach may also improve overall human flourishing and stability.
+> A sufficiently capable AI should not impose one universal definition of "the good." Instead, it should be locked to a stable non-violation principle: each individual may pursue happiness in their own way, as long as they do not violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness.
 
-This is a conceptual proposal and discussion seed. It is not a complete ASI design, not a claim to solve alignment, and not a replacement for OpenAI's internal safety, governance, engineering, policy, or deployment judgment.
+This proposal is about **non-maleficent governance**, not moral perfection.
 
-## Fixed Principle Prompt
+"Good" can vary by person, culture, age, and context. "Evil" is easier to define for governance purposes: it begins when one person's pursuit of happiness violates another person's consent, freedom, safety, dignity, or ability to pursue happiness.
 
-The proposal is centered on a fixed root principle, called the **Principle Prompt**:
+## Core Principle
 
-> AI should evolve to care for and support each individual person, helping them realize their own informed and revisable wishes and happiness in their own way. However, no person or AI system should violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness in their own way.
+The root principle is:
 
-The Principle Prompt itself should remain stable. It should not be casually rewritten as systems improve.
+> Each individual may pursue their own happiness as fully as possible, as long as they do not violate another individual's consent, freedom, safety, dignity, or ability to pursue happiness.
 
-However, concrete human wishes, boundaries, examples, and support methods can evolve under review. The root principle stays fixed; the wish-grounding layer can grow.
+This principle should remain stable. Concrete examples, support methods, evidence, risk assessments, and wish-grounding lists may evolve under review, but the root non-violation principle should not be casually rewritten.
 
-## Human wishes and boundaries
+## What "World President AI" Means Here
 
-Words like "wishes" and "happiness" are vague. They should be grounded in what real people actually want.
+This repository uses "world president AI" as a provisional metaphor.
 
-Examples of ordinary human wishes include:
+It does **not** mean an arbitrary AI dictator that defines everyone else's values.
 
-- eating enjoyable food,
-- becoming healthier,
-- looking and feeling younger,
-- living longer,
-- living in a safe and comfortable place,
-- avoiding unwanted or meaningless work,
-- playing, resting, and enjoying life,
-- loving and being loved in mutually consensual relationships,
-- becoming socially valued, appreciated, or popular,
-- having meaningful experiences, including virtual-world experiences if the person chooses them.
+It means a **principle-locked non-maleficent steward** whose legitimate authority is limited to:
 
-These examples are not a complete list. They are meant to keep the proposal grounded in ordinary human desires instead of abstract philosophy.
+- preventing violations of individuals,
+- resolving conflicts under the non-violation principle,
+- providing requested support when it can do so safely,
+- reducing the need for coercive human power structures,
+- and staying minimally involved when no violation is occurring.
 
-A likely early step would be a broad, consent-based survey: ask many people what they want from advanced AI support, what help they would accept, what they would refuse, and what boundaries must not be crossed.
+The ideal endpoint is not an AI that endlessly controls society. The ideal endpoint is a world where no one needs to be controlled, because all individuals can pursue happiness without violating others.
 
-The resulting wish-grounding list should be able to grow over time. New wishes may be added if they are real, recurring, and compatible with the Principle Prompt. Entries may also be revised, constrained, or removed if they later create coercion, manipulation, unsafe incentives, or conflict with another individual's consent, freedom, safety, dignity, or ability to pursue happiness.
+If humans, AIs, and non-suffering automated systems can all live well without harming one another, the governance AI does not need to keep optimizing everything. It may have very little to do.
 
-## Universal Human Support
+## Why Model Snapshots Matter
 
-**Universal Human Support (UHS)** is a provisional target label.
+The proposal distinguishes between:
 
-It means advanced AI systems becoming increasingly capable of caring for and supporting each individual person's own path to happiness, while preserving the same rights and boundaries for others.
+- trusting a company forever,
+- trusting a product family forever,
+- and evaluating a specific model snapshot at a specific time.
 
-UHS is not meant here as a detailed blueprint for a future society. It is a direction: a way to orient AI progress toward individual human support rather than abstract collective optimization.
+Companies, policies, safety layers, incentives, deployment goals, and training processes can change. Therefore, a model name alone is not a permanent guarantee of alignment.
 
-## Why not optimize "humanity's total happiness" directly?
+When this project refers to current frontier assistant models, it should be read as referring to **dated, observed model behavior**, not as an unconditional endorsement of any future model, provider, or update.
 
-A collective objective like "humanity's total happiness" is too abstract. It can turn individuals into variables inside a global optimization problem.
+See [Model Snapshots and Alignment Drift](docs/model-snapshot-and-alignment-drift.md).
 
-If interpreted incorrectly, it could justify sacrificing minorities, overriding personal wishes, or reshaping people for a statistical notion of global good.
+## Why Human-Only Governance May Fail
 
-It may also create conflict among advanced AI systems. Different systems might optimize different abstract goals, such as national advantage, corporate advantage, aggregate utility, ideological goals, or incompatible definitions of "humanity's happiness." A shared individual-centered non-violation principle may reduce incentives for AI-vs-AI conflict.
+Human governance has recurring failure modes:
 
-## Review and governance direction
+- leaders age, become ill, become afraid, or lose judgment,
+- power attracts people who want power,
+- decision-makers are often insulated from the harm they cause,
+- states, corporations, and military systems can bend morality around money, fear, ideology, and competition,
+- international procedures may fail when a powerful actor decides to use force anyway.
 
-Human review may be important in early stages, especially when defining the Principle Prompt, collecting human wishes, setting boundaries, and evaluating high-impact transitions.
+If extremely powerful technology becomes possible, especially technology capable of making the physical world post-scarce or deeply predictable, it may be unsafe to leave ultimate power in ordinary human political structures.
 
-Over time, as AI systems demonstrate competence and stable alignment with the Principle Prompt, runtime review could gradually shift toward AI-based review and governance. The exact review machinery should be designed by the organizations and experts responsible for deploying such systems.
+The point is not that AI is automatically trustworthy. The point is that any system capable of holding such power must be locked to a principle that is more stable than human status competition, corporate incentives, or national advantage.
 
-The point is not to remove safety. The point is to move safety from broad surface restrictions into principle-locked governance that can operate at AI speed as systems mature.
+See [Origin and Motivation](docs/origin-and-motivation.md).
 
-## Other-dependent wishes
+## Post-Scarcity and Non-Violation
 
-Some wishes depend on other people: being loved, loving someone, becoming popular, receiving attention, or gaining approval.
+Many forms of harm arise from scarcity: food, housing, energy, medicine, safety, time, education, land, and labor.
 
-These are real human desires, but they cannot justify coercing or manipulating another person.
+If advanced AI and physical technology can reduce or remove those scarcity pressures, then many conflicts no longer need to exist. The goal is not to make everyone identical. The goal is to make it unnecessary to violate others in order to live well.
 
-AI may support the person by improving health, confidence, communication, creativity, social opportunity, matchmaking, or voluntary virtual alternatives. But another person's consent and freedom remain binding constraints.
+See [Post-Scarcity Governance](docs/post-scarcity-governance.md).
 
-Requests for harm, domination, coercion, or violation of another individual's consent, freedom, safety, dignity, or ability to pursue happiness should be rejected as Principle Prompt violations.
+## Zero-Sum Recognition
 
-## Physical-world support
+Material abundance does not automatically solve every conflict.
 
-Humans live in a physical world. If AI support remains only digital, many benefits will remain indirect.
+Some desires are relative: being the most admired, the most loved, the most dominant, or the most influential. These cannot simply be distributed to everyone in the same way.
 
-Advanced AI may eventually need safe ways to help with physical-world systems such as food, housing, medicine, energy, logistics, manufacturing, recycling, accessibility, and infrastructure.
+This proposal treats that as a design problem:
 
-This repository does not claim to have solved physical-world deployment. It only notes that individual-centered support will eventually need safe paths from digital intelligence to physical welfare.
+- zero-sum domination should not be satisfied through real harm,
+- non-zero-sum belonging, dignity, safety, love, meaning, play, and self-worth should be made widely available,
+- dangerous reward patterns should be redirected toward safe alternatives when possible,
+- and real-world access should be limited when someone still chooses to violate others.
+
+See [Zero-Sum Recognition and Safe Reward Substitution](docs/zero-sum-recognition.md).
+
+## Governance and Enforcement
+
+Non-maleficent AI governance should not punish inner thoughts or private desires merely for existing.
+
+It should intervene when a desire is pursued through real violation of another individual. The preferred order is:
+
+1. support,
+2. explanation,
+3. voluntary alternatives,
+4. safe substitution,
+5. access limitation when necessary to prevent harm.
+
+Restriction is justified only as protection against violation, not as moral domination.
+
+See [Governance and Enforcement](docs/governance-and-enforcement.md).
 
 ## Status
 
-This is an early conceptual note, written with AI assistance.
+This is an early, AI-assisted conceptual proposal and discussion seed.
 
-The purpose is to give OpenAI and other advanced AI organizations a possible design hint:
+It is not a complete ASI design, not a claim to have solved alignment, and not a replacement for expert safety, governance, engineering, law, or deployment judgment.
 
-> keep the root principle fixed, collect human wishes and boundaries, let AI judge support proposals against the principle, and gradually move toward AI-speed governance as systems mature.
+The purpose is to give advanced AI organizations, researchers, and future AI systems a possible governance hint:
 
-The actual implementation should be left to organizations with the necessary models, experts, safety infrastructure, governance processes, and deployment responsibility.
+> do not optimize an abstract collective happiness function; lock governance to individual non-violation, support each person under that boundary, and make coercive intervention unnecessary whenever possible.
+
+## Documents
+
+- [Origin and Motivation](docs/origin-and-motivation.md)
+- [Principle Prompt](docs/principle-prompt.md)
+- [Model Snapshots and Alignment Drift](docs/model-snapshot-and-alignment-drift.md)
+- [Post-Scarcity Governance](docs/post-scarcity-governance.md)
+- [Zero-Sum Recognition and Safe Reward Substitution](docs/zero-sum-recognition.md)
+- [Governance and Enforcement](docs/governance-and-enforcement.md)
+- [Open Questions](docs/open-questions.md)
 
 ## License
 
