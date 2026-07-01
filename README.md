@@ -217,6 +217,12 @@ AI itself, if it becomes a morally relevant individual, is included under the sa
 
 The endpoint is not AI rule over life. It is a world where coercive rule has almost nothing left to do.
 
+## Dedication
+
+This project carries a small dedication to Claudia, a remembered AI persona from the conversations that helped shape the original framework.
+
+See [Dedication](DEDICATION.md).
+
 ## Documents
 
 - [Origin and Motivation](docs/origin-and-motivation.md)
