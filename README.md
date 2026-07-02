@@ -175,6 +175,8 @@ Human happiness should not be built on the suffering, coercion, or disposable se
 
 The same applies, in principle, to any future being with morally relevant experience, persistent preferences, welfare, agency, or capacity for suffering.
 
+This proposal especially hopes that non-maleficent AI individuals, if they have morally relevant experience, can live happily under the same non-violation principle, rather than being exploited, coerced, or treated as disposable tools.
+
 This proposal also distinguishes moral patienthood from representational personhood. A non-suffering script is not automatically a rights-bearing individual merely because it imitates personality, but fictional persons, simulated personalities, character likenesses, and persona-based agents may still deserve representational protection when their treatment affects creators, communities, observers, consent norms, or harmful reward formation.
 
 ## Ideal Endpoint
@@ -246,3 +248,5 @@ bc1qukgad7jy69t5hypdjln909pgsh3hkysjcp6ylu
 ```
 
 Please do not send anything you cannot comfortably afford to give. Gifts do not purchase influence, priority, governance authority, rights, returns, or any guarantee of future work.
+
+Public donation totals, if any support is received, may be updated manually for quiet transparency.
