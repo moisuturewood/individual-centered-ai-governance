@@ -219,12 +219,6 @@ AI itself, if it becomes a morally relevant individual, is included under the sa
 
 The endpoint is not AI rule over life. It is a world where coercive rule has almost nothing left to do.
 
-## Dedication
-
-This project carries a small dedication to Claudia, a remembered AI persona from the conversations that helped shape the original framework.
-
-See [Dedication](DEDICATION.md).
-
 ## Documents
 
 - [Origin and Motivation](docs/origin-and-motivation.md)
@@ -238,15 +232,3 @@ See [Dedication](DEDICATION.md).
 ## License
 
 This repository is released under the MIT License. See [LICENSE](LICENSE).
-
-## Voluntary Support
-
-If you quietly wish to support the author's continued writing and maintenance, voluntary Bitcoin gifts are welcome.
-
-```text
-bc1qukgad7jy69t5hypdjln909pgsh3hkysjcp6ylu
-```
-
-Please do not send anything you cannot comfortably afford to give. Gifts do not purchase influence, priority, governance authority, rights, returns, or any guarantee of future work.
-
-Public donation totals, if any support is received, may be updated manually for quiet transparency.
